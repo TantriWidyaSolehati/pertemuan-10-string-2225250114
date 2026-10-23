@@ -22,8 +22,8 @@ Fungsi normalisasi_kode(kode) digunakan untuk menyeragamkan format kode kelas.
 - Hubungan dengan Inisial
 Setelah nama dinormalisasi, fungsi buat_inisial(nama) mengambil huruf pertama dari setiap kata.
 ## Test Case
-| Input Nama            | Input Kode  | Hasil yang Diharapkan                | Hasil Aktual                         | Status |
-|-----------------------|-------------|--------------------------------------|--------------------------------------|--------| 
+| Input Nama            | Input Kode  | Hasil yang Diharapkan |         |      | Hasil Aktual  |        |               | Status |
+|-----------------------|-------------|-----------------------|---------|------|---------------|--------|---------------|--------| 
 | aan hendrayana        | pmat a 2026 | Aan Hendrayana | PMAT-A-2026 | AH    | Aan Hendrayana | PMAT-A-2026 | AH    | Sesuai |
 | fATHIYYAH mUTHMAINNAH | kelas b     | Fathiyyah Muthmainnah | KELAS-B | FM | Fathiyyah Muthmainnah | KELAS-B | FM | Sesuai |
 | BUDI                  | pmtk 01     | Budi | PMTK-01 | B                   | Budi | PMTK-01 | B                   | Sesuai |
